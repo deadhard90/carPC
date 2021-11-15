@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        @import url(css/general_style.css);
+    </style>
+    <script src="js/buttons.js" defer></script>
+    <script src="js/showTime.js" defer></script>
+</head>
+<body>
+    <main data-main_collection class="main-collection">
+        <section data-header_buttons class="header-buttons">
+            <div data-button_home class="header-button" id="button-home"></div>
+            <div data-button_tape class="header-button" id="button-tape"></div>
+            <div data-button_radio class="header-button" id="button-radio"></div>
+            <div data-button_map class="header-button" id="button-map"></div>
+            <div data-button_social class="header-button" id="button-social"></div>
+            <div data-button_settings class="header-button" id="button-settings"></div>
+        </section>
+        <section data-container_blocks class="data-container-blocks">
+            <div data-block_home class="blocks block-home">
+                <div data-clock id="times_div" class="clock"></div>
+            </div>
+            <div data-block_tape class="blocks block-tape"></div>
+            <div data-block_radio class="blocks block-radio"></div>
+            <div data-block_map class="blocks block-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d847.119841439132!2d30.59289435733578!3d50.48781285066639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d035d3ea5f5d%3A0x7d84fbea3afcd09a!2z0LHRg9C7LiDQn9C10YDQvtCy0LAsIDQyLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sin!4v1635772924921!5m2!1sru!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div data-block_social class="blocks blocks-social">
+                <div class="social-group">
+                    <a data-social-faebook class="block-social" id="social-faebook"  href="https://www.google.com"></a>
+                    <a data-social-drive class="block-social" id="social-drive" href="https://www.google.com"></a>
+                    <a data-social-google class="block-social" id="social-google" href="https://www.google.com"></a>
+                    <a data-social-insta class="block-social" id="social-insta" href="https://www.google.com"></a>
+                </div>
+            </div>
+            <div data-block_settings class="blocks block-settings">
+                <a href="#">credits</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
